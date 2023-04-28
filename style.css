@@ -1,0 +1,133 @@
+body {
+    font: 12px arial,
+}
+
+header {
+    background-color: #0aa531;
+    color: #000000;
+    padding: 20px;
+}
+
+#encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #000000;
+}
+.img {
+    margin-left: 20px;
+}
+
+aside {
+    float: left;
+    background-color: #17c442;
+    padding-bottom: 110px;
+    width: 28%;
+
+}
+
+#pp,
+#apt,
+#language {
+    margin-bottom: 17px;
+    padding-left: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+aside p {
+    padding-bottom: 5px;
+}
+
+section {
+    float: right;
+    width: 72%;
+    padding-bottom: 0px;
+    background-color: #8bffa8;
+}
+
+#formacion,
+#antecedentes {
+
+    padding-left: 1em;
+    padding-top: 3px;
+}
+
+.fa {
+    font-style: italic;
+}
+
+footer {
+    position: absolute;
+    top: 1165px;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    padding-top: 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: #d0ffdc;
+
+}
+
+#formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f0eeff;
+
+}
+
+#formulario h2 {
+    text-align: center;
+}
+
+.especificacion,
+.titulo {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #3e8e41;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: #e60000;
+}
